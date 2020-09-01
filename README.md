@@ -21,6 +21,6 @@ This is a relatively simple syntax highlighter that may not have captured all of
 
 ### Contributing
 
-The code is hosted in this repository. Feel free to fork the project and make pull requests to update the syntax highlighter.
+The code is hosted in this [repository](https://github.com/ayang4114/harmony-highlighter). Feel free to fork the project and make pull requests to update the syntax highlighter.
 
 **Enjoy!**
