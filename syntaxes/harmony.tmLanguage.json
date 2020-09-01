@@ -3,29 +3,69 @@
   "name": "Harmony",
   "patterns": [
     {
+      "include": "#comment"
+    },
+    {
       "include": "#keywords"
+    },
+    {
+      "include": "#operator"
     },
     {
       "include": "#strings"
     }
   ],
   "repository": {
+    "operator": {
+      "patterns": [
+        {
+          "name": "support.type",
+          "match": "(\\{|\\})"
+        },
+        {
+          "name": "entity.other.attribute-name.id.css",
+          "match": "(\\(|\\))"
+        },
+        {
+          "name": "entity.name.function",
+          "match": "(\\[|\\])"
+        },
+        {
+          "name": "string.regexp",
+          "match": "(\\b(not)\\b|\\.\\.|\\:|\\;|\\,|\\::|\\=|\\=\\=|\\>|\\>\\=|\\<|\\<\\=|\\!|\\<\\>|\\^|\\%|\\+|\\-|\\*|\\/|\\|\\||\\&\\&|\\:\\=)"
+        }
+      ]
+    },
+    "comment": {
+      "name": "comment",
+      "patterns": [
+        {
+          "name": "comment.line.double-slash",
+          "match": "\\#.*$"
+        }
+      ]
+    },
     "keywords": {
       "patterns": [
         {
           "name": "keyword.control.harmony",
-          "match": "\\b(if|while|for|return)\\b"
-        }
-      ]
-    },
-    "strings": {
-      "name": "string.quoted.double.harmony",
-      "begin": "\"",
-      "end": "\"",
-      "patterns": [
+          "match": "\\b(if|else|while|in|let|for|def|import|such|that)\\b"
+        },
         {
-          "name": "constant.character.escape.harmony",
-          "match": "\\\\."
+          "name": "keyword.harmony",
+          "match": "\\b(const|result|assert|choose|spawn|wait|await)\\b"
+        },
+        {
+          "name": "keyword.operator.new",
+          "match": "\\b(True|False)\\b"
+        },
+        {
+          "name": "keyword.operator.new.harmony",
+          "match": "\\;"
+        },
+        {
+          "name": "constant.numeric",
+          "match": "[0-9]"
         }
       ]
     }
