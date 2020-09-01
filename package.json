@@ -6,10 +6,11 @@
   "engines": {
     "vscode": "^1.48.0"
   },
-  "repository": "",
+  "repository": "https://github.com/ayang4114/harmony-highlighter",
   "categories": [
     "Programming Languages"
   ],
+  "publisher": "ayang4114",
   "keywords": [
     "Cornell University",
     "Operating Systems",
