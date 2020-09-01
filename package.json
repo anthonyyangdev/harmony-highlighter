@@ -1,0 +1,34 @@
+{
+  "name": "harmony-highlighter",
+  "displayName": "harmony-highlighter",
+  "description": "A syntax highlighter for the harmony concurrent programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "harmony",
+        "aliases": [
+          "Harmony",
+          "harmony"
+        ],
+        "extensions": [
+          ".hny"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "harmony",
+        "scopeName": "source.hny",
+        "path": "./syntaxes/harmony.tmLanguage.json"
+      }
+    ]
+  }
+}
