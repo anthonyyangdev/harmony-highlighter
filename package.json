@@ -6,9 +6,22 @@
   "engines": {
     "vscode": "^1.48.0"
   },
+  "repository": "",
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "Cornell University",
+    "Operating Systems",
+    "CS 4410",
+    "CS 4411",
+    "Harmony",
+    "Syntax Highlighter"
+  ],
+  "author": {
+    "email": "ayang4114@gmail.com",
+    "name": "Anthony Yang"
+  },
   "contributes": {
     "languages": [
       {
