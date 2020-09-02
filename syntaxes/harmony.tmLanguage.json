@@ -40,6 +40,11 @@
       "name": "comment",
       "patterns": [
         {
+          "name": "comment.block.documentation",
+          "begin": "\\(\\*",
+          "end": "\\*\\)"
+        },
+        {
           "name": "comment.line.double-slash",
           "match": "\\#.*$"
         }
