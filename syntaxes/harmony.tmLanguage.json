@@ -58,7 +58,7 @@
         },
         {
           "name": "keyword.harmony",
-          "match": "\\b(const|result|assert|choose|spawn|wait|await)\\b"
+          "match": "\\b(const|keys|len|del|result|assert|choose|spawn|wait|await)\\b"
         },
         {
           "name": "keyword.operator.new",
