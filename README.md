@@ -5,15 +5,15 @@ This is a simple syntax highlighter for the Harmony concurrent programming langu
 ## Features
 
 - Basic syntax highlighting:
-  - Control statement keywords such as "for", "while", "if", "else"
+  - Control statement keywords such as `for`, `while`, `if`, `else`
 
   - Numerical values, `True`, `False`
 
   - Parentheses, brackets, comments
 
-  - Some built-in functions, such as "assert" or "choose"
+  - Some built-in functions, such as `assert` or `choose`
 
-Supported on ".hny" extension files.
+Supported on `.hny` extension files.
 
 ## Known Issues
 
