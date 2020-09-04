@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.2.1]
+
+- Bug fixes with variable/constant names.
+
 ## [0.2.0]
 
 - Block comments and additional keywords, such as `len` and `del`.
