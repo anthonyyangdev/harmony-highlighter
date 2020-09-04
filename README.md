@@ -4,7 +4,7 @@
 
 This extension is now deprecated, and a new updated extension has been made to substitute it. All new work will be done in that extension.
 
-For new features and updates on the Harmony programming language extension, install the HarmonyLang extension, which can be [here](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang).
+For new features and updates on the Harmony programming language extension, install the HarmonyLang extension, which can be found [here](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang).
 
 ## Summary
 
@@ -13,6 +13,7 @@ This is a simple syntax highlighter for the Harmony concurrent programming langu
 ## Features
 
 - Basic syntax highlighting:
+
   - Control statement keywords such as `for`, `while`, `if`, `else`
 
   - Numerical values, `True`, `False`
