@@ -1,5 +1,13 @@
 # harmony-highlighter
 
+## Deprecated Notice
+
+This extension is now deprecated, and a new updated extension has been made to substitute it.
+
+For new features and updates on the Harmony programming language extension, install the HarmonyLang extension, which can be [here](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang).
+
+## Summary
+
 This is a simple syntax highlighter for the Harmony concurrent programming language used in CS 4410/4411 at Cornell University.
 
 ## Features
