@@ -7,7 +7,7 @@ This is a simple syntax highlighter for the Harmony concurrent programming langu
 - Basic syntax highlighting:
   - Control statement keywords such as "for", "while", "if", "else"
 
-  - Numerical values, "true", "false"
+  - Numerical values, `True`, `False`
 
   - Parentheses, brackets, comments
 
