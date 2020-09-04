@@ -2,7 +2,7 @@
 
 ## Deprecated Notice
 
-This extension is now deprecated, and a new updated extension has been made to substitute it.
+This extension is now deprecated, and a new updated extension has been made to substitute it. All new work will be done in that extension.
 
 For new features and updates on the Harmony programming language extension, install the HarmonyLang extension, which can be [here](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang).
 
