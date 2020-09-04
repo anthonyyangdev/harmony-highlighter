@@ -2,7 +2,7 @@
   "name": "harmony-highlighter",
   "displayName": "harmony-highlighter",
   "description": "Harmony concurrent programming language syntax highlighter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.48.0"
   },
