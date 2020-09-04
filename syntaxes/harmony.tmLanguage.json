@@ -12,7 +12,7 @@
       "include": "#operator"
     },
     {
-      "include": "#strings"
+      "include": "#values"
     }
   ],
   "repository": {
@@ -67,6 +67,14 @@
         {
           "name": "keyword.operator.new.harmony",
           "match": "\\;"
+        }
+      ]
+    },
+    "values": {
+      "patterns": [
+        {
+          "name": "value.harmony",
+          "match": "[_a-zA-Z][_a-zA-Z0-9]*"
         },
         {
           "name": "constant.numeric",
